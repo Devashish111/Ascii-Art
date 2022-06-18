@@ -57,7 +57,7 @@ for l in range(count):
 
 frame=cv2.imread("ascii/ascimg0.jpg")
 
-# Iterate through the ascii image folder to combine them into a simgle video
+# Iterate through the ascii image folder to combine them into a single video
 ih,iw,il=frame.shape
 fourcc=cv2.VideoWriter_fourcc(*'mpv4')
 video=cv2.VideoWriter("asciiVideo.mp4",fourcc,15,(iw,ih))
