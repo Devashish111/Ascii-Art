@@ -5,8 +5,8 @@ from PIL import Image,ImageDraw,ImageFont
 
 import math
 
-# os.mkdir("images")
-# os.mkdir("ascii")
+os.mkdir("images")
+os.mkdir("ascii")
 
 # sample video is taken as input
 vidObj=cv2.VideoCapture("Samplevideo.mp4")
