@@ -2,14 +2,17 @@ ASCII_ART_GENERATOR
 Converting a given image and video into Ascii form of it.
 
 HOW TO RUN THE PROJECT
+
  Some libraries are required to be installed for this project to run:
+ 
      PIL(Pillow)
      Open_CV
      Numpy
      
 WORKING OF THE PROJECT
-The following code is taking the sample video as input and converting it into frames and saving it into a folder named as "images" which will be craeted using os.mkdir("images")
-and count is the number of frames in the video.
+
+ The following code is taking the sample video as input and converting it into frames and saving it into a folder named as "images" which will be craeted using os.mkdir("images")
+ and count is the number of frames in the video.
 
           vidObj=cv2.VideoCapture("Samplevideo.mp4")
           # Now we will be converting entire video into frames and we will count number of total frames generated
@@ -58,6 +61,7 @@ Check for the video properties that is what was the frame rate when the video wa
 
           
 LEARNINGS FROM THE PROJECT
+
       Got a good introduction of Open_Cv and PIL libraries.
       Learnt to create new folders and looping through them.
       And final and most important-The mapping of characters according to the intensity of the pixel of image.
