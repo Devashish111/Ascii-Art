@@ -4,7 +4,7 @@ from turtle import width
 from PIL import Image,ImageDraw,ImageFont
 
 import math
-
+#Comment out the following two lines of Code if you have folders already
 os.mkdir("images")
 os.mkdir("ascii")
 
